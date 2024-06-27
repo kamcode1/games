@@ -1,0 +1,5 @@
+first_adjective = input("Enter an adjective: ")
+second_adjective = input("Enter an adjective a second: ")
+third_adjective = input("Enter an adjective a third: ")
+four_adjective = input("Enter an adjective a fourth: ")
+print(f"On a beautiful {first_adjective} day, I went to the zoo. I saw a funny {second_adjective} monkey swinging from the trees. Then, I spotted a majestic {third_adjective} lion lounging in the sun.  What a wild and {four_adjective} experience! ")
