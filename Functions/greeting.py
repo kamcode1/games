@@ -10,9 +10,9 @@
 # answer = area(5,6)
 # print(answer)
 
-def odd_even(number):
-    if number % 2 == 0:
-        print(f"{number} is an even number!")
-    else:
-        print(f"{number} is an odd number!")
-odd_even(12)
+# def odd_even(number):
+#     if number % 2 == 0:
+#         print(f"{number} is an even number!")
+#     else:
+#         print(f"{number} is an odd number!")
+# odd_even(12)
