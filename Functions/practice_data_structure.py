@@ -71,15 +71,19 @@
 ##{'o', 'a', 'g'}
 # When changed to a set it only prints the keys and not the values
 
-def funcd(d, v):
-    for key in d:
-        if d[key] == v:
-            return key
-    return dict()
+# def funcd(d, v):
+#     for key in d:
+#         if d[key] == v:
+#             return key
+#     return dict()
 
-ydict = dict([('v1', 1), ('v2', 2), ('v3', 3)])
-print(ydict)
+# ydict = dict([('v1', 1), ('v2', 2), ('v3', 3)])
+# print(ydict)
 
 
-print(funcd(ydict, 2))
-print(funcd(ydict, 7))
+# print(funcd(ydict, 2))
+# print(funcd(ydict, 7))
+
+#Exercise 1: Create a list to store names of your favorite fruits. Write code to access the second element and print it.
+fav_fruit = ["Apple", "Orange", "Banana's"]
+print(fav_fruit[2])
