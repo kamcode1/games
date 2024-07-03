@@ -90,5 +90,13 @@
 
 # Exercise 2: Define a dictionary to store information about your favorite book, including title, author, and genre. Use the key to retrieve the genre.
 
-b_dict = dict([('title', 'Game of Thrones'), ('author', 'Kam N.'), ('gener', 'thriller')])
-print(b_dict['gener'])
+# b_dict = dict([('title', 'Game of Thrones'), ('author', 'Kam N.'), ('gener', 'thriller')])
+# print(b_dict['gener'])
+
+# Exercise 3: Write a program to generate a random set of numbers between 1 and ten. Use set operations to remove duplicates and display the unique numbers.
+import random
+random_numbers = [random.randint(1, 10) for _ in range(20)]
+print("Generate a list of random number:", random_numbers)
+
+unique_numbers = set(random_numbers)
+print("unique numbers:", unique_numbers)
