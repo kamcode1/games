@@ -84,6 +84,11 @@
 # print(funcd(ydict, 2))
 # print(funcd(ydict, 7))
 
-#Exercise 1: Create a list to store names of your favorite fruits. Write code to access the second element and print it.
-fav_fruit = ["Apple", "Orange", "Banana's"]
-print(fav_fruit[2])
+# Exercise 1: Create a list to store names of your favorite fruits. Write code to access the second element and print it.
+# fav_fruit = ["Apple", "Orange", "Banana's"]
+# print(fav_fruit[2])
+
+# Exercise 2: Define a dictionary to store information about your favorite book, including title, author, and genre. Use the key to retrieve the genre.
+
+b_dict = dict([('title', 'Game of Thrones'), ('author', 'Kam N.'), ('gener', 'thriller')])
+print(b_dict['gener'])
